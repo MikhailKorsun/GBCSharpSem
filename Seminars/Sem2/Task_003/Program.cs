@@ -15,3 +15,22 @@ void CheckMultiplicityto7and23(int number)
 Console.Write("Введите целое число: ");
 int numberBeingChecked = Convert.ToInt32(Console.ReadLine());
 CheckMultiplicityto7and23(numberBeingChecked);
+
+// Либо сделать через bool
+// bool CheckMultiplicityto7and23(int num)
+// {
+//     if (num % 7 == 0 && num % 23 ==0)
+//     {
+//         return true;
+//     }
+//     else
+//     {
+//         return false;
+//     }
+// }
+//
+// Console.Write("Введите целое число: ");
+// int numberBeingChecked = Convert.ToInt32(Console.ReadLine());
+//
+//bool result = CheckMultiplicityto7and23(numberBeingChecked);
+//Console.WriteLine(result);
