@@ -3,14 +3,7 @@
 // единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
 
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        System.Console.Write($"{array[i]} ");
-    }
-    System.Console.WriteLine();
-}
+
 
 // void FillArray01(int[] array)
 // {
@@ -29,7 +22,14 @@ int[] CreateRandomArray(int size, int minValue, int maxValue)
     }
     return array;
 }
-
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        System.Console.Write($"{array[i]} ");
+    }
+    System.Console.WriteLine();
+}
 // System.Console.Write("Input array size: " );
 // int size = Convert.ToInt32(Console.ReadLine());
 // System.Console.Write("Input minimal value: " );
